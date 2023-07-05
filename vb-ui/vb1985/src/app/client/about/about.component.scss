@@ -1,0 +1,57 @@
+@import '../../mixins/colors.scss';
+
+.container-fluid{
+    color: white;
+}
+.content {
+    overflow: hidden;
+}
+
+.design{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+.content img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.content:hover img {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .design{
+        padding: 40px 0 60px 0;
+        justify-content: space-evenly;
+        .img-3{
+            display: none;
+        }
+        .img-4{
+            display: none;
+        }
+        .img-5{
+            display: none;
+        }
+        .img-6{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .design{
+        padding: 40px 0 60px 0;
+        justify-content: space-evenly;
+        
+        .img-5{
+            display: none;
+        }
+        .img-6{
+            display: none;
+        }
+    }
+}

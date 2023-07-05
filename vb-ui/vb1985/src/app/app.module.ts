@@ -24,6 +24,7 @@ import { AdminHomeComponent } from './admin/admin-home/admin-home.component';
 import { AdminHeaderComponent } from './admin/admin-header/admin-header.component';
 import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 import { ManageGalleryComponent } from './admin/manage-gallery/manage-gallery.component';
+import { AboutComponent } from './client/about/about.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ManageGalleryComponent } from './admin/manage-gallery/manage-gallery.co
     AdminHomeComponent,
     AdminHeaderComponent,
     AddEmployeeComponent,
-    ManageGalleryComponent
+    ManageGalleryComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

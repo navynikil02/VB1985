@@ -1,0 +1,18 @@
+@import '../src/app/mixins/colors.scss';
+
+body{
+    font-family: $font-family;
+    letter-spacing: 1px;
+    font-size: 16px;
+    .content-heading{
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .content-h3{
+        font-weight: 600;
+    }
+    .title-color{
+        color: $font-color;
+    }
+}
+
