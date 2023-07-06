@@ -9,15 +9,11 @@ footer{
         color: $font-color;
     }
     ul{
-        padding: 0;
         li{
-            list-style: none;
             padding-top: 10px;
             a{
                 color: white;
-                text-decoration: none;
             }
-    
             a:hover{
                 color: $font-color;
             }

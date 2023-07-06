@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { ClientComponent } from './client.component';
 import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   {
@@ -11,6 +13,8 @@ const routes: Routes = [
     children : [
       {path: '', component: HomeComponent, data: { title: 'Video Boys - 1985'}},
       {path: 'gallery', component: GalleryComponent, data: { title: 'VB - Gallery'}},
+      {path: 'about-us', component: AboutComponent, data: { title: 'About - Video boys'}},
+      {path: 'contact-us', component: ContactComponent, data: { title: 'VB - Contact Us'}},
       {path: '',
         redirectTo: '',
         pathMatch: 'full'
