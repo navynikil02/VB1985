@@ -1,1 +1,36 @@
-<p>gallery works!</p>
+<div class="gallery py-4 my-2">
+    <div class="container text-center">
+        <h6 class="title-color">OUR GALLERY</h6>
+        <h1 class="fw-600 pb-3">Recent Captures</h1>
+
+        <ul class="d-md-flex justify-content-center">
+            <li>
+                <a [class.active]="isActiveCategory('Wedding')" (click)="filterImages('Wedding')">Wedding</a>
+            </li>
+
+            <li>
+                <a [class.active]="isActiveCategory('Babyshower')" (click)="filterImages('Babyshower')">Baby Shower</a>
+            </li>
+
+            <li>
+                <a [class.active]="isActiveCategory('Pre-wedding')" (click)="filterImages('Pre-wedding')">Pre Wedding</a>
+            </li>
+
+            <li>
+                <a [class.active]="isActiveCategory('Birthday')" (click)="filterImages('Birthday')">Birthday</a>
+            </li>
+
+            <li>
+                <a [class.active]="isActiveCategory('Others')" (click)="filterImages('Others')">Others</a>
+            </li>
+        </ul>
+
+        <hr>
+
+        <div class="row box">
+            <div class="img-content" *ngFor="let image of getFilteredImages()">
+                <img [src]="image.path" [alt]="image.alt" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>

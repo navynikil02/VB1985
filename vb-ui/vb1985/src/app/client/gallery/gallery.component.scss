@@ -1,0 +1,52 @@
+@import "../../mixins/colors.scss";
+
+ul {
+  li {
+    padding: 10px 20px;
+    a {
+      font-family: $font-family-2;
+      cursor: pointer;
+      font-weight: 500;
+      color: $header-color;
+    }
+    a.active {
+      color: $font-color;
+    }
+    a:hover {
+      color: $font-color;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .box{
+    .img-content{
+      padding: 10px;
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .box{
+    .img-content{
+      padding: 10px;
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img-content{
+    overflow: hidden;
+  }
+  .img-content img {
+      width: 100%;
+      transition: 0.5s all ease-in-out;
+  }
+  .img-content:hover img {
+      transform: scale(1.1);
+  }
+}

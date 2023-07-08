@@ -1,14 +1,12 @@
 @import '../../mixins/colors.scss';
 
 .site-header{
-    // width: 100%;
-    // position: fixed;
-    // z-index: 2;
+    background-color: $header-color;
     .logo{
         width: 200px;
     }
     .nav-link{
-        color: white;
+        color: $background-color;
     }
     .nav-link:hover{
         color: $font-color;

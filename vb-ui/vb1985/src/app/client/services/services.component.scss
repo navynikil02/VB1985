@@ -1,21 +1,24 @@
 @import '../../mixins/colors.scss';
 
 .services{
-    background-color: #e6e6e6;
+    background-color: $background-color-2;
     .box{
         .card{
-            background-color: white;
+            background-color: $background-color;
             img{
                 width: 100px;
                 height: 100px;
                 margin-top: 20px;
+            }
+            img:hover{
+                fill: $font-color;
             }
             .text{
                 height: 40%;
             }
         }
         p{
-            font-family: "Karla", Sans-serif;
+            font-family: $font-family-2;
         }
     }
 }
