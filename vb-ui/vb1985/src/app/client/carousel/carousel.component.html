@@ -7,7 +7,7 @@
     <div class="carousel-inner">
       <div class="carousel-item {{x.active}}" *ngFor="let x of carousel">
         <img src="{{x.path}}" class="d-block w-100" alt="{{x.alt}}">
-        <div class="carousel-caption d-block {{x.class}}">
+        <div class="carousel-caption animate-caption d-block {{x.class}}">
           <span class="title-color">{{x.title}}</span>
           <h1>{{x.text}}</h1>
           <a type="button" class="btn" href="{{x.link}}">{{x.button}}</a>

@@ -18,6 +18,11 @@
     font-weight: 900;
 }
 
+.custom-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 @media screen and (max-width: 768px) {
     .design{
         padding: 40px 0 60px 0;

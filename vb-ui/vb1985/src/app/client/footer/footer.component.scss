@@ -4,7 +4,7 @@ footer{
     background-color: $header-color;
     background-image: url(../../../assets/images/footer-img.jpg);
     background-position: 52% 58%;
-    color: $background-color;
+    color: #cccccc;
     font-family: $font-family-2;
     h3{
         color: $font-color;
@@ -13,7 +13,7 @@ footer{
         li{
             padding-top: 5px;
             a{
-                color: $background-color;
+                color: #cccccc;
             }
             a:hover{
                 color: $font-color;
@@ -30,18 +30,12 @@ footer{
     .section{
         padding: 10px 0;
     }
+    .dev{
+        color: $background-color;
+        text-decoration: none;
+    }
+    .dev:hover{
+        color: $font-color;
+    }
 }
 
-@media screen and (min-width: 768px){
-    .box{
-        display: flex;
-        justify-content: space-between;
-        .section{
-            padding: 0;
-        }
-    }
-    .bottom-container{
-        display: flex;
-        justify-content: flex-end;
-    }
-}

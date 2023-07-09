@@ -1,7 +1,7 @@
 <footer class="site-footer">
     <div class="container py-3">
-        <div class="box py-lg-5">
-            <div class="section">
+        <div class="box py-md-5 d-md-flex justify-content-between">
+            <div class="section p-md-0">
                 <div class="logo">
                     <a href="/">
                         <img src="../../../assets/images/VB-2.png" width="100%" routerLink="">
@@ -25,21 +25,23 @@
                 </ul>
             </div>
 
-            <div class="section">
+            <div class="section p-md-0">
                 <h3 class="widget-title">Quick Links</h3>
 
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a routerLink="/" (click)="reloadPage('/')">Home</a></li>
 
-                    <li><a href="/contact-us">Contact Us</a></li>
+                    <li><a routerLink="/contact-us" (click)="reloadPage('/contact-us')">Contact Us</a></li>
 
-                    <li><a href="/about-us">About Us</a></li>
+                    <li><a routerLink="/about-us" (click)="reloadPage('/about-us')">About Us</a></li>
 
-                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a routerLink="/gallery" (click)="reloadPage('/gallery')">Gallery</a></li>
+
+                    <li><a href="#portfolio">Port Folio</a></li>
                 </ul>
             </div>
             
-            <div class="section">
+            <div class="section p-md-0">
                 <h3 class="widget-title">Open Hours</h3>
 
                 <span>Daily: 9.00 AM–6.00 PM<br> Sunday &amp; Holidays: Closed</span>
@@ -48,8 +50,9 @@
 
         <hr>
 
-        <div class="bottom-container">
+        <div class="bottom-container d-lg-flex text-center justify-content-between">
             <p>© Copyright 2023 Video Boys. All Rights Reserved</p>
+            <p>Developed by <a class="dev" href="">Spark</a></p>
         </div>
     </div>
 </footer>

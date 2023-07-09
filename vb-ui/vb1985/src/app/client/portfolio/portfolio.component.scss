@@ -3,9 +3,9 @@
 .portfolio {
     background-color: $background-color-2;
     p {
-        font-size: 22px;
         font-style: italic;
-        height: 50%;
+        display: flex;
+        align-items: center;
     }
     span {
         font-family: $font-family-2;
@@ -38,5 +38,27 @@
     }
     .rounded-icons button.active::before {
         background-color: $font-color;
+    }
+}
+
+
+@media (max-width: 511px) {
+    p{
+        height: 250px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 512px) and (max-width: 767px) {
+    p{
+        height: 200px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    p{
+        height: 150px;
+        font-size: 22px;
     }
 }

@@ -76,18 +76,41 @@
 
 @media screen and (min-width: 540px) {  
     .carousel-caption{
-        top: 50%;
-        transform: translateY(-50%);
+        top: 30%;
         a{
             margin-top: 20px;
         }
-    }    
+    }
+    .animate-caption {
+        animation: slideIn 1s ease-in-out;
+    }
+         
+    @keyframes slideIn {
+        0% {
+            transform: translateX(-20%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
 }
 
 @media (min-width: 0px) and (max-width: 539px) {
     img{
         max-height: 300px;
         min-height: 300px;
+    }
+    .animate-caption {
+        animation: slideIn 1s ease-in-out;
+    }
+         
+    @keyframes slideIn {
+        0% {
+            transform: translateX(-20%);
+        }
+        100% {
+            transform: translateX(0);
+        }
     }
 }
 

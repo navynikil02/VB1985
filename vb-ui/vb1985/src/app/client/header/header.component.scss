@@ -5,14 +5,51 @@
     .logo{
         width: 200px;
     }
-    .nav-link{
+    a{
         color: $background-color;
     }
-    .nav-link:hover{
+    a:hover{
+        color: $font-color;
+    }
+    .active{
         color: $font-color;
     }
 }
 .container{
     display: flex;
     justify-content: space-between;
+}
+
+.navbar{
+    background-color: $header-color;
+    .navbar-toggler{
+        border: 0;
+    }
+}
+.offcanvas{
+    background-color: $header-color;
+}
+
+i{
+    font-size: 25px;
+    color: $background-color;
+}
+i:hover{
+    color: $font-color;
+}
+
+@media screen and (max-width: 992px) {
+    .offcanvas{
+        padding: 0 20px;
+        a{
+            padding: 20px 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .offcanvas{
+        width: 80%;
+    }
 }

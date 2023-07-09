@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+  text: string = '';
+  characterCount: number = 0;
+
+  updateText(value: string): void {
+    this.text = value;
+    this.characterCount = this.text.length;
+  }
 }

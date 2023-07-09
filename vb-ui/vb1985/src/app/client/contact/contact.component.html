@@ -1,95 +1,101 @@
 <div class="contact pt-4" id="contact">
-        <div class="text-center">
-            <h6 class="title-color">FOR QUERIES</h6>
-            <h1 class="fw-600 pb-4">Contact Us</h1>
-        </div>
+    <div class="text-center">
+        <h6 class="title-color">FOR QUERIES</h6>
+        <h1 class="fw-600 pb-4">Contact Us</h1>
+    </div>
 
-        <div class="container-fluid">
-            <div class="box d-md-flex p-4 p-lg-5">
-                <div class="col-md-6 info m-lg-2 mb-4">
-                    <h3 class="fw-600 pb-3">Contact Info</h3>
+    <div class="container-fluid">
+        <div class="box d-md-flex p-4 p-lg-5">
+            <div class="col-md-6 info m-lg-2 mb-4">
+                <h3 class="fw-600 pb-3">Contact Info</h3>
 
-                    <div class="d-flex align-items-center">
-                        <div class="icon my-2">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </div>
-
-                        <span>
-                            40, Sir Shanmugam Road, R.S.Puram, 
-                            <br>Coimbatore-641002
-                        </span>
+                <div class="d-flex align-items-center">
+                    <div class="icon my-2">
+                        <i class="bi bi-geo-alt-fill"></i>
                     </div>
 
-                    <hr>
-
-                    <div class="d-flex align-items-center">
-                        <div class="icon my-2">
-                            <i class="bi bi-telephone-fill"></i>
-                        </div>
-                        
-                        <ul>
-                            <li><span>Call us 24*7</span></li>
-                            <li><a href="tel: +919944484128">99444 84128</a></li>
-                            <li><a href="tel: +919944487861">99444 87861</a></li>
-                        </ul>
-                    </div>
-
-                    <hr>
-
-                    <div class="d-flex align-items-center">
-                        <div class="icon my-2">
-                            <i class="bi bi-envelope-paper-heart-fill"></i>
-                        </div>
-                        
-                        <ul>
-                            <li>
-                                <a href="mailto: videoboys1985@gmail.com">videoboys1985@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <hr>
-
-                    <div class="d-flex align-items-center">
-                        <div class="icon my-2">
-                            <i class="bi bi-clock-fill"></i>
-                        </div>
-                        <span>
-                            Daily: 9.00 AM–6.00 PM
-                            <br>Sunday & Holidays: Closed
-                        </span>
-                    </div>
-
-                    <hr>
+                    <span>
+                        VIDEO BOYS, NO: 40/71, Sir Shanmugam Road, 
+                        <br>Near Hotel annapoorna, R.S.Puram, Coimbatore-641002
+                    </span>
                 </div>
 
-                <div class="col-md-6 mx-md-4">
-                    <form class="border rounded px-4">
-                        <div class="form-group py-3">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
+                <hr>
 
-                        <div class="form-group py-3">
-                            <label for="mobile">Mobile</label>
-                            <input type="tel" class="form-control" id="mobile">
-                        </div>
+                <div class="d-flex align-items-center">
+                    <div class="icon my-2">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
 
-                        <div class="form-group py-3">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email">
-                        </div>
-                        
-                        <div class="form-group py-3">
-                            <label for="textarea">Message (Optional)</label>
-                            <textarea class="form-control" id="textarea" rows="3"></textarea>
-                        </div>
-
-                        <div class="form-group text-center py-3">
-                            <button type="submit" class="btn">Submit</button>
-                        </div>
-                      </form>
+                    <ul>
+                        <li><span>Call us 24*7</span></li>
+                        <li><a href="tel: +919944484128">99444 84128</a></li>
+                        <li><a href="tel: +919944487861">99444 87861</a></li>
+                    </ul>
                 </div>
+
+                <hr>
+
+                <div class="d-flex align-items-center">
+                    <div class="icon my-2">
+                        <i class="bi bi-envelope-paper-heart-fill"></i>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <a href="mailto: videoboys1985@gmail.com">videoboys1985@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="d-flex align-items-center">
+                    <div class="icon my-2">
+                        <i class="bi bi-clock-fill"></i>
+                    </div>
+                    <span>
+                        Daily: 9.00 AM–6.00 PM
+                        <br>Sunday & Holidays: Closed
+                    </span>
+                </div>
+
+                <hr>
             </div>
+
+            <div class="col-md-6 mx-md-4">
+                <form class="border rounded px-4">
+                    <div class="form-group py-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+
+                    <div class="form-group py-3">
+                        <label for="mobile">Mobile</label>
+                        <input type="tel" class="form-control" id="mobile">
+                    </div>
+
+                    <div class="form-group py-3">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group py-3">
+                        <label for="textarea">Message (Optional)</label>
+                        <textarea #myTextarea (input)="updateText(myTextarea.value)" maxlength="250"
+                            class="form-control" id="textarea" rows="3"></textarea>
+                        <span class="count text-end">{{ characterCount }}/250</span>
+                    </div>
+
+                    <div class="form-group text-center py-3">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <div class="container pb-5">
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=900&amp;height=400&amp;hl=en&amp;q=VIDEO BOYS, NO: 40/71, Sir Shanmugam Road, Near Hotel annapoorna, R.S.Puram, Coimbatore-641002&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://thepasswordgame.com/">The Password Game</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+        </div>
     </div>
 </div>
