@@ -27,8 +27,8 @@
 
         <hr>
 
-        <div class="row box">
-            <div class="img-content" *ngFor="let image of getFilteredImages()">
+        <div class="row justify-content-center box px-3 px-md-0">
+            <div class="content" *ngFor="let image of getFilteredImages()">
                 <img [src]="image.path" [alt]="image.alt" class="img-fluid">
             </div>
         </div>

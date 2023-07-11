@@ -37,6 +37,10 @@
                 box-shadow: inset 0 0;
                 border-color: #ddd;
             }
+
+            label{
+                color: $header-color;
+            }
             .count{
                 display: block;
                 margin-top: 5px;

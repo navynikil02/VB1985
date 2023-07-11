@@ -4,5 +4,33 @@ p{
     font-family: $font-family-2;
 }
 .card{
-    background-color: $background-color-2;
+    background-color: $background-color;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 80%;
+    }
+    .box.row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        scrollbar-width: thin;
+    }
+
+    .box.row::-webkit-scrollbar {
+        display: none;
+    }
+
+    .col-md-4.mb-2 {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    img{
+        width: 50%;
+    }
 }

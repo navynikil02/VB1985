@@ -5,8 +5,8 @@
     </div>
 
     <div class="container-fluid">
-        <div class="box d-md-flex p-4 p-lg-5">
-            <div class="col-md-6 info m-lg-2 mb-4">
+        <div class="box d-md-flex py-4 p-lg-5">
+            <div class="col-md-6 info p-lg-2 mb-4">
                 <h3 class="fw-600 pb-3">Contact Info</h3>
 
                 <div class="d-flex align-items-center">
@@ -15,8 +15,10 @@
                     </div>
 
                     <span>
-                        VIDEO BOYS, NO: 40/71, Sir Shanmugam Road, 
-                        <br>Near Hotel annapoorna, R.S.Puram, Coimbatore-641002
+                        VIDEO BOYS, NO: 40/71, 
+                        <br>Sir Shanmugam Road, 
+                        <br>Near Hotel annapoorna, 
+                        <br>R.S.Puram, Coimbatore-641002
                     </span>
                 </div>
 
@@ -63,27 +65,27 @@
                 <hr>
             </div>
 
-            <div class="col-md-6 mx-md-4">
+            <div class="col-md-6 px-md-4 mt-md-5">
                 <form class="border rounded px-4">
-                    <div class="form-group py-3">
-                        <label for="name">Name</label>
+                    <div class="form-group form-floating py-3">
                         <input type="text" class="form-control" id="name">
+                        <label for="name">Name</label>
                     </div>
 
-                    <div class="form-group py-3">
-                        <label for="mobile">Mobile</label>
+                    <div class="form-group form-floating py-3">
                         <input type="tel" class="form-control" id="mobile">
+                        <label for="mobile">Mobile</label>
                     </div>
 
-                    <div class="form-group py-3">
-                        <label for="email">Email address</label>
+                    <div class="form-group form-floating py-3">
                         <input type="email" class="form-control" id="email">
+                        <label for="email">Email address</label>
                     </div>
 
-                    <div class="form-group py-3">
-                        <label for="textarea">Message (Optional)</label>
+                    <div class="form-group form-floating py-3">
                         <textarea #myTextarea (input)="updateText(myTextarea.value)" maxlength="250"
                             class="form-control" id="textarea" rows="3"></textarea>
+                        <label for="textarea">Message (Optional)</label>
                         <span class="count text-end">{{ characterCount }}/250</span>
                     </div>
 
@@ -94,7 +96,7 @@
             </div>
         </div>
     
-        <div class="container pb-5">
+        <div class="container-fluid px-0 pb-4 pb-md-5">
             <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=900&amp;height=400&amp;hl=en&amp;q=VIDEO BOYS, NO: 40/71, Sir Shanmugam Road, Near Hotel annapoorna, R.S.Puram, Coimbatore-641002&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://thepasswordgame.com/">The Password Game</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
         </div>
     </div>
