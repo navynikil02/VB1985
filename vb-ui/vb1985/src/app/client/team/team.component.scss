@@ -6,6 +6,11 @@ p{
 .card{
     background-color: $background-color;
 }
+.card:hover{
+    .card-title{
+        color: $font-color;
+    }
+}
 
 @media (max-width: 768px) {
     .container{

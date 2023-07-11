@@ -5,13 +5,10 @@
     .box{
         .card{
             background-color: $background-color;
-            img{
+            object{
                 width: 100px;
                 height: 100px;
                 margin-top: 20px;
-            }
-            img:hover{
-                fill: $font-color;
             }
             .text{
                 height: 40%;

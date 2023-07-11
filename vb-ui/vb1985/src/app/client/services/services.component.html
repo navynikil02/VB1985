@@ -7,7 +7,7 @@
             <div class="col-md-4 mb-2" *ngFor="let x of services">
                 <div class="card mb-3">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{x.image}}" width="100%">
+                        <object type="image/svg+xml" [data]="sanitizeSVG(x.image)" class="img-fluid"></object>
                     </div>
                     <div class="card-body">
                         <div class="text">

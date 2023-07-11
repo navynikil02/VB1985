@@ -1,32 +1,32 @@
 [
     {
-        "image": "assets/images/vb-s-3.svg",
-        "title": "Candid Photography",
-        "text": "There are many variations of Lorem Ipsum available majority suffer"
+        "image": "assets/images/vb-s-1.svg",
+        "title": "Candid Captures",
+        "text": "Spontaneous moments, genuine emotions captured"
     },
     {
         "image": "assets/images/vb-s-2.svg",
-        "title": "Treditional Photography",
-        "text": "It is a long established fact that a reader will be distracted"
+        "title": "Vintage Shots",
+        "text": "Classic, posed shots, capturing timeless beauty"
     },
     {
-        "image": "assets/images/vb-s-1.svg",
+        "image": "assets/images/vb-s-3.svg",
         "title": "Montage Video",
-        "text": "There are many variations of Lorem Ipsum available majority"
+        "text": "Collage of memories, blending images and videos"
     },
     {
-        "image": "assets/images/vb-s-3.svg",
-        "title": "Candid Videography",
-        "text": "There are many variations of Lorem Ipsum available majority suffer"
+        "image": "assets/images/vb-s-4.svg",
+        "title": "Candid Video",
+        "text": "Unscripted moments unfold, capturing raw authenticity"
     },
     {
-        "image": "assets/images/vb-s-2.svg",
-        "title": "Treditional Videography",
-        "text": "It is a long established fact that a reader will be distracted"
+        "image": "assets/images/vb-s-5.svg",
+        "title": "Treditional Video",
+        "text": "Planned sequences, showcasing curated visuals"
     },
     {
-        "image": "assets/images/vb-s-1.svg",
+        "image": "assets/images/vb-s-6.svg",
         "title": "Live Relay",
-        "text": "There are many variations of Lorem Ipsum available majority"
+        "text": "Real-time captions, enhancing visual experience"
     }
 ]
