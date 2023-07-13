@@ -5,6 +5,10 @@
     background-color: $header-color;
 }
 
+p, span{
+    font-family: $font-family-2;
+}
+
 .design{
     display: flex;
     justify-content: space-between;

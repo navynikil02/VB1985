@@ -1,31 +1,31 @@
 [
     {
-        "image": "assets/images/vb-s-1.svg",
+        "image": "assets/images/svg/vb-s-1.svg",
         "title": "Candid Captures",
         "text": "Spontaneous moments, genuine emotions captured"
     },
     {
-        "image": "assets/images/vb-s-2.svg",
+        "image": "assets/images/svg/vb-s-2.svg",
         "title": "Vintage Shots",
         "text": "Classic, posed shots, capturing timeless beauty"
     },
     {
-        "image": "assets/images/vb-s-3.svg",
+        "image": "assets/images/svg/vb-s-3.svg",
         "title": "Montage Video",
         "text": "Collage of memories, blending images and videos"
     },
     {
-        "image": "assets/images/vb-s-4.svg",
+        "image": "assets/images/svg/vb-s-4.svg",
         "title": "Candid Video",
         "text": "Unscripted moments unfold, capturing raw authenticity"
     },
     {
-        "image": "assets/images/vb-s-5.svg",
+        "image": "assets/images/svg/vb-s-5.svg",
         "title": "Treditional Video",
         "text": "Planned sequences, showcasing curated visuals"
     },
     {
-        "image": "assets/images/vb-s-6.svg",
+        "image": "assets/images/svg/vb-s-6.svg",
         "title": "Live Relay",
         "text": "Real-time captions, enhancing visual experience"
     }

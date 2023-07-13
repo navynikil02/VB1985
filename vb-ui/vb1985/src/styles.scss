@@ -17,6 +17,10 @@ body{
     .title-color{
         color: $font-color;
     }
+    h6{
+        font-family: $font-family-2;
+        font-weight: 500;
+    }
 
     .content{
         overflow: hidden;

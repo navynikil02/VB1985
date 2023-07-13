@@ -7,6 +7,9 @@
         .box{
             color: $header-color;
             font-family: $font-family-2;
+            h3{
+                font-family: $font-family;
+            }
             .icon{
                 border: 1px solid $font-color;
                 text-align: center !important;

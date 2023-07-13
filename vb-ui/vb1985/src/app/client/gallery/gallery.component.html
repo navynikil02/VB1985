@@ -4,24 +4,24 @@
         <h1 class="fw-600 pb-3">Recent Captures</h1>
 
         <ul class="d-md-flex justify-content-center">
-            <li>
-                <a [class.active]="isActiveCategory('Wedding')" (click)="filterImages('Wedding')">Wedding</a>
+            <li (click)="filterImages('Wedding')">
+                <a [class.active]="isActiveCategory('Wedding')">Wedding</a>
             </li>
 
-            <li>
-                <a [class.active]="isActiveCategory('Babyshower')" (click)="filterImages('Babyshower')">Baby Shower</a>
+            <li (click)="filterImages('Babyshower')">
+                <a [class.active]="isActiveCategory('Babyshower')">Baby Shower</a>
             </li>
 
-            <li>
-                <a [class.active]="isActiveCategory('Pre-wedding')" (click)="filterImages('Pre-wedding')">Pre Wedding</a>
+            <li (click)="filterImages('Pre-wedding')">
+                <a [class.active]="isActiveCategory('Pre-wedding')">Pre Wedding</a>
             </li>
 
-            <li>
-                <a [class.active]="isActiveCategory('Birthday')" (click)="filterImages('Birthday')">Birthday</a>
+            <li (click)="filterImages('Birthday')">
+                <a [class.active]="isActiveCategory('Birthday')">Birthday</a>
             </li>
 
-            <li>
-                <a [class.active]="isActiveCategory('Others')" (click)="filterImages('Others')">Others</a>
+            <li (click)="filterImages('Others')">
+                <a [class.active]="isActiveCategory('Others')">Others</a>
             </li>
         </ul>
 
@@ -29,7 +29,9 @@
 
         <div class="row justify-content-center box px-3 px-md-0">
             <div class="content" *ngFor="let image of getFilteredImages()">
+                <a href="{{image.path}}">
                 <img [src]="image.path" [alt]="image.alt" class="img-fluid">
+                </a>
             </div>
         </div>
     </div>
