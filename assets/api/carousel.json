@@ -1,0 +1,35 @@
+[
+    { 
+        "active": "active",
+        "path": "assets/images/carousel/vb-banner-1.jpg",
+        "alt": "image-1",
+        "class": "text-start",
+        "title": "VIDEO BOYS",
+        "text": "Your Friendly Photographer.",
+        "link": "/gallery",
+        "button": "View Our Works",
+        "slide": "0"
+    },
+    { 
+        "active": "",
+        "path": "assets/images/carousel/wed-img.jpg",
+        "alt": "image-2",
+        "class": "text-start",
+        "title": "BEST OF PHOTOGRAPHY",
+        "text": "Discover Something Special!",
+        "link": "/gallery",
+        "button": "View Our Works",
+        "slide": "1"
+    },
+    { 
+        "active": "",
+        "path": "assets/images/carousel/vb-banner-2.jpg",
+        "alt": "image-2",
+        "class": "text-start",
+        "title": "WILD",
+        "text": "Checkout Our Wildlife Pictures!",
+        "link": "/gallery",
+        "button": "View Our Works",
+        "slide": "2"
+    }
+]
