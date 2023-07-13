@@ -1,4 +1,4 @@
-<header class="site-header sticky-top" id="header">
+<header class="site-header sticky-top" id="header" [class.active]="isHeaderActive" [class.fixed-header]="isFixedHeader">
     <div class="container py-3">
         <div class="logo">
             <a routerLink="/" (click)="reloadPage('/')">

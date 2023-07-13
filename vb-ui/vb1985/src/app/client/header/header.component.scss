@@ -1,5 +1,15 @@
 @import '../../mixins/colors.scss';
 
+header.active{
+    background: transparent;
+}
+header.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
 .site-header{
     background-color: $header-color;
     .logo{
@@ -23,7 +33,6 @@
 }
 
 .navbar{
-    background-color: $header-color;
     .navbar-toggler{
         border: 0;
     }
